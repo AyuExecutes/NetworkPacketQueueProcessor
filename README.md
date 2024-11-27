@@ -13,7 +13,7 @@ The Network Packet Queue Processor is a C++ program that simulates the processin
 The input consists of multiple lines, where each line represents a cycle of packets. The format of each line is:  
 `<number_of_packets> <input_port_1> <output_port_1> <value_1> <input_port_2> <output_port_2> <value_2>`
 
-## Example Input
+### Example Input
         4 2 1 one 2 1 two 3 4 three 4 5 four  
         2 1 6 five 1 6 six
 
@@ -50,7 +50,7 @@ To compile the program run:
 
 ### Running the Program
 **Option 1**: Using Console Input  
-Run the program and provide input. End the input by pressing `Ctrl+D` (Linux/Mac) or `Ctrl-Z` (Windows).  
+Run the program and provide input. End the input by pressing `Ctrl+D` (Linux/Mac) or `Ctrl+Z` (Windows).  
 
 #### Example session:  
         $ ./NetworkPacketQueueProcessor  

@@ -67,8 +67,6 @@ void insertValues(queue<Package> (&inputQueue)[256], queue<Package> (&outputQueu
                 continue;
             }
 
-            //stringstream >> totalPackages;
-
             int inputPort, outputPort;
             string val;
 
@@ -79,8 +77,6 @@ void insertValues(queue<Package> (&inputQueue)[256], queue<Package> (&outputQueu
                     cerr << "Error: Invalid input format for package" << endl;
                     continue;
                 }
-
-                // stringstream >> inputPort >> outputPort >> val;
             
                 Package package;
                 package.outputPort = outputPort;
